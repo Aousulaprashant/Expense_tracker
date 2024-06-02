@@ -1,0 +1,144 @@
+.AdminContainer{
+    display: flex;
+    justify-content: space-between;    
+    background-color: #000000;
+    position: relative;
+    top: -20px;
+    height: 34px;
+}
+
+.AdminContainer .Home{
+    position: relative;
+    cursor: pointer;
+    color: aliceblue;
+    top: -20px;
+    left: 90px;
+}
+
+.AdminContainer .AdminAddnew{
+    text-decoration: none;
+    color:rgb(255, 255, 255);
+    font-weight: bolder;
+    position: relative;
+    right:30px ;
+    top: 4px;
+}
+
+
+.AdminContainer {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #F7DC6F; /* light yellow background */
+  }
+  
+  .Home {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .AdminDiv {
+    margin-bottom: 20px;
+  }
+  
+  .AdminAddnew {
+    background-color: #F2C464; /* dark yellow background */
+    color: #fff; /* white text */
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .AdminAddnew:hover {
+    background-color: #F7DC6F; /* light yellow background */
+    color: #333; /* dark gray text */
+  }
+  
+  .Admin-main h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333; /* dark gray text */
+  }
+  
+  .Admin-main .table-container {
+    width: 100%;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #f2f06c; /* light yellow background */
+  }
+  
+  .Admin-main table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  .table-container table{
+    max-width: 90%; /* adjust the width to your liking */
+  margin: 0 auto;
+  }
+  .Admin-main th, td {
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  .Admin-main th {
+    font-weight: bold;
+    background-color: #F2C464; /* dark yellow background */
+    color: #000000; /* white text */
+    text-transform: uppercase;
+  }
+  
+  .Admin-main td {
+    font-weight: bold;
+  }
+  
+  .Admin-main button {
+    background-color: #F7DC6F; /* light yellow background */
+    color: #333; /* dark gray text */
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  .Admin-main .edit {
+    background-color: #F2C464; /* dark yellow background */
+    color: #fff; /* white text */
+  }
+
+  .Admin-main .view {
+    background-color: #709b4c; /* dark yellow background */
+    color: #fff; /* white text */
+  }
+
+  .Admin-main .delete {
+    background-color: #e46f5a; /* dark yellow background */
+    color: #fff; /* white text */
+  } 
+  .Admin-main .edit:hover {
+    background-color: #c19e51; /* dark yellow background */
+    color: #fff; /* white text */
+  }
+
+  .Admin-main .view:hover {
+    background-color: #44602c; /* dark yellow background */
+    color: #fff; /* white text */
+  }
+
+  .Admin-main .delete:hover {
+    background-color: #985245; /* dark yellow background */
+    color: #fff; /* white text */
+  }
+
+  .Admin-main .btns-div{
+    width: 200px;
+    position: relative;
+    left:80px;
+    display: flex;
+    justify-content: space-between;
+  }

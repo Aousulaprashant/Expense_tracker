@@ -1,0 +1,102 @@
+.edit-student-container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  background-color: #fffbe6; /* Light yellow background */
+}
+
+.edit-student-header {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #ffcc00; /* Yellow color for header text */
+}
+
+.edit-student-form label {
+  display: block;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.edit-student-form input[type="text"],
+.edit-student-form input[type="email"],
+.edit-student-form input[type="number"] {
+  width: calc(100% - 20px);
+  padding: 10px;
+  margin: 5px 0 15px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.edit-student-section-title {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  color: #ffcc00; /* Yellow color for section titles */
+}
+
+.edit-student-buttons {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.edit-student-button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #ffcc00; /* Yellow color for buttons */
+  color: white;
+  cursor: pointer;
+}
+
+.edit-student-button:hover {
+  background-color: #e6b800; /* Darker yellow for hover effect */
+}
+
+.edit-student-button:disabled {
+  background-color: #cccccc;
+  cursor: not-allowed;
+}
+
+.edit-student-buttons a {
+  text-decoration: none;
+}
+
+.edit-student-projects,
+.edit-student-experiences {
+  margin-bottom: 20px;
+}
+
+.edit-student-projects div,
+.edit-student-experiences div {
+  margin-bottom: 10px;
+}
+
+.edit-student-projects label,
+.edit-student-experiences label {
+  display: inline-block;
+  width: 45%;
+  margin-right: 5%;
+}
+
+.edit-student-projects input,
+.edit-student-experiences input {
+  width: 90%;
+  margin-bottom: 5px;
+}
+
+.edit-student-projects button,
+.edit-student-experiences button {
+  margin-top: 5px;
+}
+
+.edit-student-container .button{
+  color: #ffffff;
+  border: none;
+  border-radius: 12px;
+  margin-bottom: 4px;
+  padding: 6px;
+  background-color: #ffcc00;
+}

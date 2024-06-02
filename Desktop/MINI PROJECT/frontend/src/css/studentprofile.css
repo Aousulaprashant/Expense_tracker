@@ -1,0 +1,79 @@
+.sidebar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 200px; /* adjust the width to your liking */
+    height: 100vh;
+    background-color: #FFF9D0;
+    padding: 20px;
+    border-right: 1px solid #ddd;
+  }
+  
+  .sidebar .Bot {
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+  }
+  .sidebar .Bot .close{
+    width: 100px;
+    display: flex;
+    justify-content: space-between;
+  }
+
+.sidebar .Bot .close a{
+    text-decoration: none;
+    font-weight: bolder;
+    color: #3B3486;
+
+}
+
+.sidebar .Bot .close-btn{
+    background-color: #FFF9D0;
+    border: none;
+}
+.sidebar-icon{
+    position: relative;
+}
+  .sidebar .buttons {
+    margin-top: 20px;
+    border: none;
+  }
+  .sidebar .buttons .inner .bnts{
+    border: solid #ECEE81;
+    width: 170px;
+    padding: 20px;
+    border-radius: 20px;
+  }
+  .sidebar a, .sidebar button {
+    display: block;
+    margin-bottom: 10px;
+    background-color: #FFF9D0;
+    border: none;
+    text-decoration: none;
+    font-weight: bolder;
+  }
+
+  .sidebar .buttons .logout{
+    
+    margin-top: 190%;
+    color: red;
+    cursor: pointer;
+  }
+
+.profile-student{
+  width: 85%;
+  margin:0px 40px 0 40px;
+  box-shadow:0px 0px 12px #ede090 ;
+  padding: 30px;
+  border-radius: 12px;
+}
+
+.profile-student .subheading{
+  color: #FFC94A;
+  font-style: italic;
+  font-weight: bolder;
+}
+
+.profile-student .proInfo-student span{
+  font-weight: bolder;
+}

@@ -1,0 +1,95 @@
+.updateMain {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+  }
+  
+  .updateMain .table {
+    width: 80%;
+    border-collapse: collapse;
+  }
+  
+  .updateMain .table-header {
+    background-color: #4CAF50;
+    color: white;
+  }
+  
+ .updateMain .table-header th {
+    padding: 10px;
+    border: 1px solid #ccc;
+  }
+  
+  .updateMain .table-body tr {
+    border-bottom: 1px solid #ccc;
+  }
+  
+  .updateMain .table-body td {
+    padding: 10px;
+    border: 1px solid #ccc;
+  }
+  
+ .updateMain button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #4CAF50;
+    color: white;
+    cursor: pointer;
+    margin-right: 10px;
+  }
+  
+ .updateMain button:hover {
+    background-color: #3e8e41;
+  }
+  
+ .updateMain button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+  }
+
+
+  .main-request {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+  }
+  
+  .main-request .head {
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  .main-request textarea {
+    width: 80%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 20px;
+  }
+  
+  .main-request button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #4CAF50;
+    color: white;
+    cursor: pointer;
+    margin-right: 10px;
+  }
+  
+  .main-request button:hover {
+    background-color: #3e8e41;
+  }
+  
+  .main-request button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+  }
+  
+  .main-request p {
+    font-size: 1.2rem;
+    color: green;
+    margin-top: 20px;
+  }
