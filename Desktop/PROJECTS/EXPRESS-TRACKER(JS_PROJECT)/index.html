@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EXPENSE TRACER</title>
+
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Expense Tracer</h2>
+        <form id="expense-form" action="">
+            <input type="text" id="des" placeholder="Expence despription">
+            <select name="" id="catagory">
+                <option value="">select catagory</option>
+                <option value="food">Food</option>
+                <option value="trasportation">Transport</option>
+                <option value="entertinment">Entertinment</option>
+                <option value="">others</option>
+            </select>
+            <br>
+            <input type="number" id="amount" placeholder="amount">
+
+            <br>
+            <input type="submit" value="Add Expense">
+        </form>
+
+        <h3>Expence Summery</h3>
+        <table id="expenseTable">
+            <thead>
+                <tr>
+                    <th>Decription</th>
+                    <th>Category</th>
+                    <th>Amount</th>
+                </tr>
+            </thead>
+            <tbody id="expenseList">
+
+            </tbody>
+        </table>
+    </div>
+
+    <div class="footer">
+        <footer>PROJECT BY PRASHANTH ~ BIG_BULL</footer>
+    </div>
+
+    <script src="index.js"></script>
+    
+</body>
+</html>
